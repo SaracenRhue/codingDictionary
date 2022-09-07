@@ -1,5 +1,9 @@
 # Python
 
+```python
+print("Hello, World!")
+```
+
 ## Data Types
 
 ```python
