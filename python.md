@@ -1,6 +1,6 @@
 ### Data Types
 
-```
+```python
 x = 'Hello World'  #str
 x = 20  #int
 x = 20.5  #float
@@ -17,3 +17,9 @@ x = bytearray(5)  #bytearray
 x = memoryview(bytes(5))  #memoryview
 ```
 
+### Operations
+
+```python
+x = 2**3 #2^3  
+x = 2//3 #int(2/3)
+```
