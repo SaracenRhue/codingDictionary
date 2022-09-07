@@ -29,5 +29,4 @@ docker buildx use mybuilder
 docker buildx inspect --bootstrap
 docker run -it --rm --privileged tonistiigi/binfmt --install all
 docker buildx build --platform linux/amd64,linux/arm64 -t $USERNAME/$PROJECTNAME:latest . --push
-
 ```

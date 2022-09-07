@@ -1,6 +1,6 @@
 # Python
 
-### Data Types
+## Data Types
 
 ```python
 x = 'Hello World'  #str
@@ -19,21 +19,21 @@ x = bytearray(5)  #bytearray
 x = memoryview(bytes(5))  #memoryview
 ```
 
-### Operations
+## Operations
 
 ```python
 x = 2**3 #2^3  
 x = 2//3 #int(2/3)
 ```
 
-### In and Output
+## In and Output
 
 ```python
 username = input("Enter username:") #write user input as string in variable
 print(f"my name is {username}")
 ```
 
-### Casting
+## Casting
 
 change the data type of a variable
 
@@ -44,7 +44,7 @@ y = int(2.8)  #convert to int
 z = float('3')  #convert to float
 ```
 
-### String Operations
+## String Operations
 
 ```python
 a = "Hello, World!"
@@ -58,7 +58,7 @@ a.split(",")  # returns ['Hello', ' World!']
 a.index('H')  #returns the index of a character in a string
 ```
 
-### Lists
+## Lists
 
 ```python
 #Tuple
@@ -97,7 +97,7 @@ color = cat[1]
 disposition = cat[2]
 ```
 
-### Dictionaries
+## Dictionaries
 
 ```python
 thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964, "year": 2020}
@@ -111,7 +111,7 @@ thisdict.pop("model") #remove an item
 mydict = thisdict.copy() #copy the dictionary
 ```
 
-### Flow Control
+## Flow Control
 
 ```python
 a = 200
@@ -151,7 +151,7 @@ match n:
         print("printed if none above apply")
 ```
 
-### Functions
+## Functions
 
 ```python
 def my_function(fname, lname):
@@ -165,7 +165,7 @@ x = lambda a: a + 10 #lambda/anonymous function
 print(x(5))
 ```
 
-### Classes
+## Classes
 
 public: standart /items are globaly availible
 private: 2 underscores at the beginning /items only availible in the current class
@@ -191,7 +191,7 @@ print(p1.age)
 p1.myfunc() #call method
 ```
 
-### Exceptions
+## Exceptions
 
 ```python
 try:
@@ -204,7 +204,7 @@ finally:
     print("The 'try except' is finished")
 ```
 
-### File handling
+## File handling
 
 ```python
 with open('text.txt', 'w') as f: #open file in write mode and store in f
@@ -221,7 +221,7 @@ shutil.copy('exp.py', 'Kap04/exp.py')
 shutil.move('exp.py', 'Kap04/exp.py')
 ```
 
-### OS Module
+## OS Module
 
 ```python
 import os
@@ -238,7 +238,7 @@ os.chdir('myfolder') #change directory
 os.path.exists('myfile.txt') #check if file exists
 ```
 
-### Exel Module
+## Exel Module
 
 ```python
 import openpyxl
@@ -257,7 +257,7 @@ for i in range(-31, 31):
 wb.save("table.xlsx")  #safe file
 ```
 
-### Zip Module
+## Zip Module
 
 ```python
 import zipfile as zf
@@ -278,7 +278,7 @@ def backup(folder):
     zf.ZipFile(folder+'.zip', 'w').write(folder)
 ```
 
-### Selenium Module
+## Selenium Module
 
 automate web browser
 
@@ -305,7 +305,7 @@ driver.close() #close browser
 cmd('pkill firefox') #close all firefox instances
 ```
 
-### Pyautogui Module
+## Pyautogui Module
 
 ```python
 import pyautogui as bot
