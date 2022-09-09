@@ -2,7 +2,7 @@
 
 <p>A dictionary of coding terms and concepts for different languages.</p>
 
-<h2><a href="https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md" style="color:coral";>bash</a></h2> 
+<h2><a href="https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md" style="color: coral";>bash<a></h2> 
 
 <h2> [C++](https://github.com/SaracenRhue/codingDictionary/blob/main/cpp.md)</h2>
 
