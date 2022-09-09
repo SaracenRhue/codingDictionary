@@ -45,6 +45,12 @@ a.trim() //removes all whitespaces
 a.replace("H", "J") //replase a letter
 ```
 
+## Flow Control
+
+```JavaScript
+
+```
+
 ## Arrays
 
 ```JavaScript
@@ -69,7 +75,7 @@ loop through array with forEach
 ```JavaScript
 cars.forEach((item, index, array) => {
   console.log(item, index);
-})
+});
 ```
 
 ## Query selectors

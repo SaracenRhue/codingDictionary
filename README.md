@@ -1,4 +1,4 @@
-# codingDictionary
+<h1>codingDictionary</h1> 
 
 A dictionary of coding terms and concepts for different languages.
 
