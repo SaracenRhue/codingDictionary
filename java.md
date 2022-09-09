@@ -18,3 +18,12 @@ char myLetter = 'D';         // Character
 boolean myBool = true;       // Boolean
 String myText = "Hello";     // String
 ```
+
+## Casting
+
+change the data type of a variable
+
+```java
+double myDouble = 9.78d;
+int myInt = (int) myDouble; // Manual casting: double to int
+```
