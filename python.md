@@ -4,7 +4,7 @@
 print("Hello, World!")
 ```
 
-## Data Types
+## Datatypes
 
 ```python
 x = 'Hello World'  #str
