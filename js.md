@@ -67,19 +67,30 @@ for (var i = 0; i < cars.length; i++) {
 loop through array with forEach
 
 ```JavaScript
-cars.forEach((item, index, array) =>{
+cars.forEach((item, index, array) => {
   console.log(item, index);
 })
 ```
 
 ## Query selectors
 
-select DOM elements
+ select DOM elements
+
+ selects the first element with the tag body
 
 ```JavaScript
-var body = document.querySelector('body'); //selects the first element with the tag body
-var button = document.querySelector('#button'); //selects the element with the id button
-//selects all elements with the class someclass and returns an array
+var body = document.querySelector('body');
+```
+
+selects the element with the id button
+
+```JavaScript
+var button = document.querySelector('#button');
+```
+
+selects all elements with the class someclass and returns an array
+
+```JavaScript
 var classElements = document.querySelectorAll('.someclass');
 ```
 
