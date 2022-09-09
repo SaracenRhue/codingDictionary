@@ -4,6 +4,8 @@
 console.log("Hello World!");
 ```
 
+'' can be used instead of "" and ; is optional
+
 ## Datatypes
 
 ```JavaScript
@@ -45,12 +47,6 @@ a.trim() //removes all whitespaces
 a.replace("H", "J") //replase a letter
 ```
 
-## Flow Control
-
-```JavaScript
-
-```
-
 ## Arrays
 
 ```JavaScript
@@ -62,7 +58,49 @@ cars.shift(); //remove first value
 cars.length; //returns the length
 ```
 
-loop through array
+## Flow Control
+
+### if else statement
+
+```JavaScript
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+```
+
+### switch statement
+
+works with int and char
+
+```JavaScript
+let x = "0";
+switch (x) {
+  case 0:
+    text = "Off";
+    break;
+  case 1:
+    text = "On";
+    break;
+  default:
+    text = "No value found";
+}
+```
+
+if there is no 'break' the next case will be executed too
+
+### for loop
+
+```JavaScript
+for (var i = 0; i < 5; i++) {
+  console.log("helloworld"); //prints helloworld 5 times
+}
+```
+
+#### loop through array
 
 ```JavaScript
 for (var i = 0; i < cars.length; i++) {
@@ -70,12 +108,30 @@ for (var i = 0; i < cars.length; i++) {
 }
 ```
 
-loop through array with forEach
+#### forEach
 
 ```JavaScript
 cars.forEach((item, index, array) => {
   console.log(item, index);
-});
+})
+```
+
+## functions
+
+```JavaScript
+function myFunction(a, b) {
+  return a * b;             // Function returns the product of a and b
+}
+
+let x = myFunction(4, 3);   // Function is called, return value will end up in x
+```
+
+### arrow function
+
+```JavaScript
+var hello = () => {
+  return "Hello World!";
+}
 ```
 
 ## Query selectors
