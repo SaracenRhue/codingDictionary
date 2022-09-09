@@ -1,18 +1,24 @@
+<style>
+    a {
+        color: coral;
+    }
+</style>
+
 <h1>codingDictionary</h1> 
 
-A dictionary of coding terms and concepts for different languages.
+<p>A dictionary of coding terms and concepts for different languages.</p>
 
-## [bash](https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md)
+<h2>[bash](https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md)</h2> 
 
-## [C++](https://github.com/SaracenRhue/codingDictionary/blob/main/cpp.md)
+<h2> [C++](https://github.com/SaracenRhue/codingDictionary/blob/main/cpp.md)</h2>
 
-## [Docker](https://github.com/SaracenRhue/codingDictionary/blob/main/docker.md)
+<h2> [Docker](https://github.com/SaracenRhue/codingDictionary/blob/main/docker.md)</h2>
 
-## [Go](https://github.com/SaracenRhue/codingDictionary/blob/main/go.md)
+<h2> [Go](https://github.com/SaracenRhue/codingDictionary/blob/main/go.md)</h2>
 
-## [Java](https://github.com/SaracenRhue/codingDictionary/blob/main/java.md)
+<h2> [Java](https://github.com/SaracenRhue/codingDictionary/blob/main/java.md)</h2>
 
-## [JavaScript](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md)
+<h2> [JavaScript](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md)</h2>
 
 * [datatypes](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#datatypes)
 * [casting](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#casting)
@@ -25,9 +31,9 @@ A dictionary of coding terms and concepts for different languages.
 * [css attributes](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#css-attributes)
 * [json fetch](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#json-fetch)
 
-## [Kotlin](https://github.com/SaracenRhue/codingDictionary/blob/main/kotlin.md)
+<h2> [Kotlin](https://github.com/SaracenRhue/codingDictionary/blob/main/kotlin.md)</h2>
 
-## [Python](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md)
+<h2> [Python](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md)</h2>
 
 * [datatypes](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#datatypes)
 * [operations](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#operations)
