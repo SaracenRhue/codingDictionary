@@ -8,7 +8,7 @@
 
 <p>A dictionary of coding terms and concepts for different languages.</p>
 
-<h2>[bash](https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md)</h2> 
+<h2><a href="https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md">bash</a></h2> 
 
 <h2> [C++](https://github.com/SaracenRhue/codingDictionary/blob/main/cpp.md)</h2>
 
