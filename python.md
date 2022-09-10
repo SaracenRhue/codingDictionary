@@ -4,21 +4,23 @@
 print("Hello, World!")
 ```
 
+' ' can be used instead of " "
+
 ## Datatypes
 
 ```python
-x = 'Hello World'  #str
+x = "Hello World"  #str
 x = 20  #int
 x = 20.5  #float
 x = 1j  #complex
-x = ['apple', 'banana', 'cherry']  #list
-x = ('apple', 'banana', 'cherry')  #tuple
+x = ["apple", "banana", "cherry"]  #list
+x = ("apple", "banana", "cherry")  #tuple
 x = range(6)  #range
-x = {'name': 'John', 'age': 36}  #dict
-x = {'apple', 'banana', 'cherry'}  #set
-x = frozenset({'apple', 'banana', 'cherry'})  #rozenset
+x = {"name": "John", "age": 36}  #dict
+x = {"apple", "banana", "cherry"}  #set
+x = frozenset({"apple", "banana", "cherry"})  #rozenset
 x = True  #bool
-x = b'Hello'  #bytes
+x = b"Hello"  #bytes
 x = bytearray(5)  #bytearray
 x = memoryview(bytes(5))  #memoryview
 ```
@@ -45,7 +47,7 @@ change the data type of a variable
 print(type(x))  #print the type of x
 x = str(3.0)  #convert to string
 y = int(2.8)  #convert to int
-z = float('3')  #convert to float
+z = float("3")  #convert to float
 ```
 
 ## String Operations
@@ -58,15 +60,17 @@ a.upper()  #sets all letters as upper case
 a.lower()  #sets all letters as lower case
 a.strip()  #removes all whitespaces
 a.replace("H", "J")  #replase a letter
-a.split(",")  # returns ['Hello', ' World!']
-a.index('H')  #returns the index of a character in a string
+a.split(",")  # returns ["Hello", " World!"]
+a.index("H")  #returns the index of a character in a string
 ```
 
 ## Lists
 
+can contain different data types
+
 ```python
 #Tuple
-eggs = ('hello', 42, 0.5)  #elements in tupels are final!
+eggs = ("hello", 42, 0.5)  #elements in tupels are final!
 #Arrays
 li = [69, "banana", True]
 print(li)
@@ -82,7 +86,7 @@ li.extend(tropical) #add one list to anouter
 li.sort() #sort the list
 li.sort(reverse=True)  #sort the list descending
 li.reverse() #reverse the list order
-tropical.index('mango') #returns the index to a value
+tropical.index("mango") #returns the index to a value
 list.clear()  #clear the list content
 del li #delete the entire list
 
@@ -93,7 +97,7 @@ list3 = list1 + list2  #join two list
 print(list3)
 
 #multiple assignment trick
-cat = ['fat', 'gray', 'loud']
+cat = ["fat", "gray", "loud"]
 size, color, disposition = cat
 #short for...
 size = cat[0]
@@ -117,6 +121,8 @@ mydict = thisdict.copy() #copy the dictionary
 
 ## Flow Control
 
+### if else statement
+
 ```python
 a = 200
 b = 33
@@ -127,6 +133,11 @@ elif a == b:
 else:
     print("a is greater than b")
 
+```
+
+### while loop
+
+```python
 
 i = 0
 while i < 6:
@@ -135,16 +146,24 @@ while i < 6:
         continue  #restart the loop
     print(i)      #break to quit the loop
 
+```
 
+### for loop
+
+```python
 fruits = ["apple", "banana", "cherry"]
 for item in fruits:
     print(item)
 
 for i in range(5): #execute 5 times
     print(fruits)
+```
 
+### match /switch case statement
 
-# switch case (python >= 3.10)
+only supported in python >= 3.10
+
+```python
 n = 0
 match n:
     case 0:
@@ -205,24 +224,24 @@ except NameError:
 except:
     print("Something else went wrong")
 finally:
-    print("The 'try except' is finished")
+    print("The "try except" is finished")
 ```
 
 ## File handling
 
 ```python
-with open('text.txt', 'w') as f: #open file in write mode and store in f
+with open("text.txt", "w") as f: #open file in write mode and store in f
     f.write("Woops! I have deleted the content!") #write content/overwrite existing content
 
-with open('text.txt', 'r') as f:  #open file in read mode and store in f
+with open("text.txt", "r") as f:  #open file in read mode and store in f
     f.read("Woops! I have deleted the content!")  #returns file content as string
 
 # r+ Opens a file for both reading and writing
 # w+ Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, it creates a new file for reading and writing
 import shutil
 
-shutil.copy('exp.py', 'Kap04/exp.py')
-shutil.move('exp.py', 'Kap04/exp.py')
+shutil.copy("exp.py", "Kap04/exp.py")
+shutil.move("exp.py", "Kap04/exp.py")
 ```
 
 ## OS Module
@@ -230,16 +249,16 @@ shutil.move('exp.py', 'Kap04/exp.py')
 ```python
 import os
 
-os.listdir('./') #list all files in the current directory
-os.system('ls') #run a shell command
+os.listdir("./") #list all files in the current directory
+os.system("ls") #run a shell command
 
 
-os.remove('exp.py') #delete file
-os.rmdir('myfolder') #delete folder
-os.mkdir('myfolder') #create folder
+os.remove("exp.py") #delete file
+os.rmdir("myfolder") #delete folder
+os.mkdir("myfolder") #create folder
 os.getcwd() #get current working directory
-os.chdir('myfolder') #change directory
-os.path.exists('myfile.txt') #check if file exists
+os.chdir("myfolder") #change directory
+os.path.exists("myfile.txt") #check if file exists
 ```
 
 ## Exel Module
@@ -251,7 +270,7 @@ import math
 wb = openpyxl.Workbook()
 
 sheet = wb.active
-sheet.title = 'myTable'  #select and name tatable
+sheet.title = "myTable"  #select and name tatable
 x, y = 1, 1
 
 for i in range(-31, 31):
@@ -269,17 +288,17 @@ from os import system as cmd
 
 # zip a file
 def zip(file):
-    zf.ZipFile(file + '.zip', 'w').write(file)
-    cmd('rm -rf ' + file)
+    zf.ZipFile(file + ".zip", "w").write(file)
+    cmd("rm -rf " + file)
 
 #unzip a file
 def unzip(file):
     zf.ZipFile(file).extractall()
-    cmd('rm -fr ' + file)
+    cmd("rm -fr " + file)
 
 #backup a folder to a zip file
 def backup(folder):
-    zf.ZipFile(folder+'.zip', 'w').write(folder)
+    zf.ZipFile(folder+".zip", "w").write(folder)
 ```
 
 ## Selenium Module
@@ -293,20 +312,20 @@ from os import system as cmd
 
 
 driver = webdriver.Firefox() #open browser
-driver.get('https://www.google.com') #open url
+driver.get("https://www.google.com") #open url
 
-tag_name = driver.find_elements(by=By.TAG_NAME, value='a') #find all elements with tag name a
-class_names = driver.find_elements(by=By.CLASS_NAME, value='myclass') #find all elements with class name myclass
-id_name = driver.find_elements(by=By.ID, value='myid') #find element with id myid
+tag_name = driver.find_elements(by=By.TAG_NAME, value="a") #find all elements with tag name a
+class_names = driver.find_elements(by=By.CLASS_NAME, value="myclass") #find all elements with class name myclass
+id_name = driver.find_elements(by=By.ID, value="myid") #find element with id myid
 
 
 element = tag_name[0] #select first element
 element.click() #click element
 inner_html_text = element.text #get text inside a tag
-href = element.get_attribute('href') #get attribute value
+href = element.get_attribute("href") #get attribute value
 
 driver.close() #close browser
-cmd('pkill firefox') #close all firefox instances
+cmd("pkill firefox") #close all firefox instances
 ```
 
 ## Pyautogui Module
@@ -320,18 +339,18 @@ width = size[0]
 height = size[1]
 
 # left click
-bot.click('left')
+bot.click("left")
 
 # right click
-bot.click('right')
+bot.click("right")
 
 # drag from (0, 0) to (100, 100) relatively with a duration of 0.1s
 bot.drag(0, 0, 100, 100, absolute=False, duration=0.1)
 
 
-bot.press('enter')
-bot.press('space')
-bot.keyUp('shift')
-bot.keyDown('shift')
-bot.write('Hello world!', interval=0.25) #write text with 0.25 seconds delay between each key
+bot.press("enter")
+bot.press("space")
+bot.keyUp("shift")
+bot.keyDown("shift")
+bot.write("Hello world!", interval=0.25) #write text with 0.25 seconds delay between each key
 ```

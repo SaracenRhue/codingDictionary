@@ -4,7 +4,7 @@
 console.log("Hello World!");
 ```
 
-'' can be used instead of "" and ; is optional
+' ' can be used instead of " " and ; is optional
 
 ## Datatypes
 
@@ -48,6 +48,8 @@ a.replace("H", "J") //replase a letter
 ```
 
 ## Arrays
+
+can contain different data types
 
 ```JavaScript
 var cars = ["Saab", "Volvo", "BMW"];
@@ -178,7 +180,7 @@ change HTML attributes
 (attribute names are written in camelCase)
 
 ```JavaScript
-var img = document.querySelectorAll('img')[0];
+var img = document.querySelectorAll('img')[0]; //selects the first image
 body.class += 'someclass'; //adds the class someclass to existing classes
 img.src = 'path/to/image.jpg';
 img.alt = '#';
@@ -200,6 +202,8 @@ body.style.backgroundColor = 'red';
 ## JSON fetch
 
 get data from a JSON file
+json files are formatted lika a dictionary {}
+or multiple dictionaries in an array [{},{}]
 
 ```JavaScript
 fetch("./src/data.json").then((response) => {

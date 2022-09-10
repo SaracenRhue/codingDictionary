@@ -5,3 +5,11 @@
 
 echo "Hello, World!"
 ```
+
+## sudo
+
+repeat last command with sudo
+
+```bash
+sudo !!
+```

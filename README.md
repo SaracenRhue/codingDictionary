@@ -18,7 +18,7 @@ A dictionary of coding terms and concepts for different languages.
 * [casting](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#casting)
 * [string operations](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#string-operations)
 * [functions](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#functions)
-* [flow conrol](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#flow-conrol)
+* [flow conrol](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#flow-control)
 * [functions](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#functions)
 * [query selectors](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#query-selectors)
 * [create elements](https://github.com/SaracenRhue/codingDictionary/blob/main/js.md#create-elements)
