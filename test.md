@@ -1,9 +1,3 @@
-<style>
-    a {
-        color: red;
-    }
-</style>
-
 <ul>
-<li><a style="text-decoration: none;">test</a></li>
+<li><a style="text-decoration: none; color: coral;">test</a></li>
 </ul>
