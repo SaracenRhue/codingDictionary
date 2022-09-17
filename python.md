@@ -234,7 +234,7 @@ with open("text.txt", "w") as f: #open file in write mode and store in f
     f.write("Woops! I have deleted the content!") #write content/overwrite existing content
 
 with open("text.txt", "r") as f:  #open file in read mode and store in f
-    f.read("Woops! I have deleted the content!")  #returns file content as string
+    f.read()  #returns file content as string
 
 # r+ Opens a file for both reading and writing
 # w+ Opens a file for both writing and reading. Overwrites the existing file if the file exists. If the file does not exist, it creates a new file for reading and writing
