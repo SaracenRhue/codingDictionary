@@ -2,6 +2,8 @@
 
 A dictionary of coding terms and concepts for different languages.
 
+[view site](https://saracenrhue.github.io)
+
 ## [bash](https://github.com/SaracenRhue/codingDictionary/blob/main/bash.md)
 
 ## [C++](https://github.com/SaracenRhue/codingDictionary/blob/main/cpp.md)
