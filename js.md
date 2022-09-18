@@ -1,6 +1,6 @@
-# JavaScript
+# javascript
 
-```JavaScript
+```javascript
 console.log("Hello World!");
 ```
 
@@ -8,13 +8,13 @@ console.log("Hello World!");
 
 ## Datatypes
 
-```JavaScript
+```javascript
 var myNum = 5; //global variable
 let myString = "Hello"; //local variable
 const myBool = true; //local constant
 ```
 
-```JavaScript
+```javascript
 var myNumbrs[] = {1,2,3}; //array
 var dict = {name:"John", age:30, city:"New York"}; //dictionary
 ```
@@ -23,7 +23,7 @@ var dict = {name:"John", age:30, city:"New York"}; //dictionary
 
 change the data type of a variable
 
-```JavaScript
+```javascript
 var x = 3
 var x_as_string = String(x)
 var x_as_int = Number(x_as_string)
@@ -31,13 +31,13 @@ var x_as_int = Number(x_as_string)
 
 ## String Operations
 
-```JavaScript
+```javascript
 var a = "Hello, World!"
 var b = 420
 a += b //Hello, World!420
 ```
 
-```JavaScript
+```javascript
 a.length //16
 a.slice(0, 5) //returns the first 5 letters (Hello)
 a.charAt(1) //returns the second letter (e)
@@ -51,7 +51,7 @@ a.replace("H", "J") //replase a letter
 
 can contain different data types
 
-```JavaScript
+```javascript
 var cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel"; //change value
 cars.push("Audi"); //add value
@@ -64,7 +64,7 @@ cars.length; //returns the length
 
 ### if else statement
 
-```JavaScript
+```javascript
 if (time < 10) {
   greeting = "Good morning";
 } else if (time < 20) {
@@ -78,7 +78,7 @@ if (time < 10) {
 
 works with int and char
 
-```JavaScript
+```javascript
 let x = "0";
 switch (x) {
   case 0:
@@ -96,7 +96,7 @@ if there is no 'break' the next case will be executed too
 
 ### for loop
 
-```JavaScript
+```javascript
 for (var i = 0; i < 5; i++) {
   console.log("helloworld"); //prints helloworld 5 times
 }
@@ -104,7 +104,7 @@ for (var i = 0; i < 5; i++) {
 
 #### loop through array
 
-```JavaScript
+```javascript
 for (var i = 0; i < cars.length; i++) {
   console.log(cars[i]);
 }
@@ -112,7 +112,7 @@ for (var i = 0; i < cars.length; i++) {
 
 #### forEach
 
-```JavaScript
+```javascript
 cars.forEach((item, index, array) => {
   console.log(item, index);
 })
@@ -120,7 +120,7 @@ cars.forEach((item, index, array) => {
 
 ## functions
 
-```JavaScript
+```javascript
 function myFunction(a, b) {
   return a * b;             // Function returns the product of a and b
 }
@@ -130,7 +130,7 @@ let x = myFunction(4, 3);   // Function is called, return value will end up in x
 
 ### arrow function
 
-```JavaScript
+```javascript
 var hello = () => {
   return "Hello World!";
 }
@@ -142,25 +142,25 @@ var hello = () => {
 
  selects the first element with the tag body
 
-```JavaScript
+```javascript
 var body = document.querySelector('body');
 ```
 
 selects the element with the id button
 
-```JavaScript
+```javascript
 var button = document.querySelector('#button');
 ```
 
 selects all elements with the class someclass and returns an array
 
-```JavaScript
+```javascript
 var classElements = document.querySelectorAll('.someclass');
 ```
 
 ## Create elements
 
-```JavaScript
+```javascript
 var newElement = document.createElement('div'); //creates a new div element
 var text = document.createTextNode('Hello World!'); //creates a text node
 newElement.appendChild(text); //adds the text node to the div element
@@ -169,7 +169,7 @@ document.querySelector('body').appendChild(newElewment); //adds the div element 
 
 ### inner HTML
 
-```JavaScript
+```javascript
 var div = document.querySelectorAll('div')[0];
 div.innerHTML = '<p>some text</p>'; //replaces the content of the div with a paragraph
 ```
@@ -179,7 +179,7 @@ div.innerHTML = '<p>some text</p>'; //replaces the content of the div with a par
 change HTML attributes
 (attribute names are written in camelCase)
 
-```JavaScript
+```javascript
 var img = document.querySelectorAll('img')[0]; //selects the first image
 body.class += 'someclass'; //adds the class someclass to existing classes
 img.src = 'path/to/image.jpg';
@@ -194,7 +194,7 @@ a.href = 'https://github.com/SaracenRhue';
 change CSS attributes
 (attribute names are written in camelCase)
 
-```JavaScript
+```javascript
 var body = document.querySelector('body');
 body.style.backgroundColor = 'red';
 ```
@@ -205,7 +205,7 @@ get data from a JSON file
 json files are formatted lika a dictionary {}
 or multiple dictionaries in an array [{},{}]
 
-```JavaScript
+```javascript
 fetch("./src/data.json").then((response) => {
       return response.json();
     }).then((json) => {

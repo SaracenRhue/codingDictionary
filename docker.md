@@ -64,7 +64,7 @@ npm init
 npm install http fs
 ```
 
-```JavaScript
+```javascript
 const http = require('http');
 const fs = require('fs');
 
