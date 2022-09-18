@@ -46,5 +46,6 @@ A dictionary of coding terms and concepts for different languages.
 * [os module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#os-module)
 * [exel module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#exel-module)
 * [zip module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#zip-module)
+* [yaml module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#yaml-module)
 * [selenium module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#selenium-module)
 * [pyautogui module](https://github.com/SaracenRhue/codingDictionary/blob/main/python.md#pyautogui-module)
