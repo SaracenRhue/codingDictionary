@@ -301,6 +301,27 @@ def backup(folder):
     zf.ZipFile(folder+".zip", "w").write(folder)
 ```
 
+## yaml Module
+
+read data from a .yml file
+
+```python
+import yaml
+
+with open('config.yml', 'r') as file:
+    yaml_file = yaml.safe_load(file)
+
+print(yaml_file['prime_numbers'][0])
+print(yaml_file['rest']['url'])
+```
+
+```yaml
+rest:
+  url: "https://example.org/primenumbers/v1"
+  port: 8443
+prime_numbers: [2, 3, 5, 7, 11, 13, 17, 19]
+```
+
 ## Selenium Module
 
 automate web browser
